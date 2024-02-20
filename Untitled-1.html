@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Your Web Page</title>
+    <style>body {
+      font-family: Arial, sans-serif;
+  }
+  
+  nav {
+      background-color: #f0f0f0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .nav-icon {
+      cursor: pointer;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      margin: 20px;
+  }
+  
+  .card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .shopping-cart-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 5px;
+  }
+  
+  .hidden {
+      display: none;
+  }
+  
+  #create-trip-btn {
+      margin: 20px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+    <nav>
+        <div id="cart-icon" class="nav-icon" onclick="toggleShoppingCart()">🛒</div>
+        <div id="favorites-icon" class="nav-icon">⭐</div>
+    </nav>
+    <div class="grid-container" id="card-container">
+        <!-- Cairo Tower card will be dynamically generated here -->
+    </div>
+    <div id="shopping-cart" class="hidden">
+        <div id="cart-content">
+            <!-- Selected cards will be displayed here -->
+        </div>
+        <button onclick="createTrip()">Create Trip</button>
+    </div>
+    <div id="trip-alert" class="hidden">
+        <!-- Trip details will be displayed here -->
+        <button onclick="finishTrip()">Finish</button>
+    </div>
+    <script>
+      const cardData = [
+          { image: 'cairo_tower.jpg', name: 'Cairo Tower', rating: 4.8, location: 'Cairo, Egypt', website: 'www.cairotower.com' },
+          // Add more data as needed
+      ];
+      
+      document.addEventListener('DOMContentLoaded', function () {
+          const cardContainer = document.getElementById('card-container');
+          const shoppingCart = document.getElementById('shopping-cart');
+          const cartContent = document.getElementById('cart-content');
+          const tripAlert = document.getElementById('trip-alert');
+      
+          // Function to create cards dynamically
+          function createCard(data) {
+              const card = document.createElement('div');
+              card.className = 'card';
+              // Add card content based on data
+              card.innerHTML = `
+                  <img src="${data.image}" alt="${data.name}">
+                  <p>${data.name}</p>
+                  <p>Rating: ${data.rating}</p>
+                  <p>${data.location} - <a href="${data.website}" target="_blank">Visit Website</a></p>
+                  <button onclick="addToCart('${data.name}')">Add to Cart</button>
+                  <button onclick="deleteFromCart('${data.name}')">Delete from Cart</button>
+              `;
+              cardContainer.appendChild(card);
+          }
+      
+          // Function to display selected cards in the shopping cart
+          function displayShoppingCart() {
+              cartContent.innerHTML = '';
+              // Fetch and display selected cards
+              // ...
+          }
+      
+          // Function to add a card to the shopping cart
+          function addToCart(cardName) {
+              // Implement logic to add the card to the shopping cart
+              // ...
+              displayShoppingCart();
+          }
+      
+          // Function to delete a card from the shopping cart
+          function deleteFromCart(cardName) {
+              // Implement logic to delete the card from the shopping cart
+              // ...
+              displayShoppingCart();
+          }
+      
+          // Function to toggle the visibility of the shopping cart
+          function toggleShoppingCart() {
+              shoppingCart.classList.toggle('hidden');
+          }
+      
+          // Function to create a trip and display the alert
+          function createTrip() {
+              tripAlert.classList.remove('hidden');
+          }
+      
+          // Function to finish the trip and add the tab to the shopping cart
+          function finishTrip() {
+              // Implement logic to add the tab to the shopping cart
+              // ...
+              toggleShoppingCart();
+          }
+      
+          // Create Cairo Tower card dynamically
+          cardData.forEach(createCard);
+      });
+      
+      
+          </script>
+      
+</body>
+</html>
+
+  
+   
+</body>
+</html>

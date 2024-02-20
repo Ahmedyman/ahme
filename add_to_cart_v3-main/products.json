@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price" :4.6,
+        "image": "../imges/images/34838-اليوم-السابع-تنشر-دليلك-السياحى-1.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg",
+        "location":"ahmed"
+    },
+    {
+        "id": 3,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/Felucca_on_the_Nile_in_Cairo_2008-08-14.jpg"
+    },
+    {
+        "id": 4,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/Felucca_on_the_Nile_in_Cairo_2008-08-14.jpg"
+    },
+    {
+        "id": 5,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 6,
+        "name":" cairo tower <br>⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 7,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 8,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "price": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+
+    {
+        "id": 9,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 10,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+  },
+    {
+        "id": 11,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+  },
+    {
+        "id": 12,
+        "name":" cairo tower ⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+ }
+
+]
