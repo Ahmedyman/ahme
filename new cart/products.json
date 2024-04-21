@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "name":" cairo tower ",
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/Top 35 Egypt Classic Tours 2024_2025 _ Ancient Egypt Tours _ Egypt Culture Tours _ Egypt Historical Tours.jpeg",
+        "location":"Egypt"
+
+    },
+    {
+        "id": 2,
+        "name":" cairo tower",
+        "rating": "⭐⭐⭐⭐⭐⭐",
+
+        "image": "../imges/المتحف المصري ،القاهرة.jpeg",
+        "location":"Egypt"
+    },
+    {
+        "id": 3,
+        "name":" cairo tower",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/download (1).jpeg"
+    },
+    {
+        "id": 4,
+        "name":" cairo tower ",
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "location":"Egypt",
+
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 5,
+        "name":" cairo tower",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 6,
+        "name":" cairo tower",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 7,
+        "name":" cairo tower",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 8,
+        "name":" cairo tower ",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+
+    {
+        "id": 9,
+        "name":" cairo tower ",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+    },
+    {
+        "id": 10,
+        "name":" cairo tower",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+  },
+    {
+        "id": 11,
+        "name":" cairo tower ",
+        "location":"Egypt",
+
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+  },
+    {
+        "id": 12,
+        "name":" cairo tower",
+        "rating": "⭐⭐⭐⭐⭐⭐",
+        "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+ },
+ {
+    "id": 13,
+    "name":" cairo tower",
+    "location":"Egypt",
+
+    "rating": "⭐⭐⭐⭐⭐⭐",
+    "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+},
+{
+    "id": 14,
+    "name":" cairo tower",
+    "location":"Egypt",
+
+    "rating": "⭐⭐⭐⭐⭐⭐",
+    "image": "../imges/images/150px-Mohammed-ali-basha-mosque.jpg"
+}
+]
